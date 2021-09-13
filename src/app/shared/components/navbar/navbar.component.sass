@@ -1,0 +1,24 @@
+@use '../../../../styles'
+%button
+  fill: var(--blue-1l)
+  :hover
+    fill: var(--yellow)
+:host
+  background-color: var(--blue-2l)
+  width: 100vw
+  height: 5vh
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+.menu_icon
+  grid-column: 2/3
+  align-self: center
+  justify-self: center
+  height: 80%
+  @extend %button
+.flechas
+  grid-column: 3
+  align-self: center
+  justify-self: end
+  margin-right: 15px
+  height: 50%
+  @extend %button
