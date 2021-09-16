@@ -1,0 +1,6 @@
+@mixin icon_svg_color
+  fill: var(--blue-1l)
+@mixin button_color
+  @include icon_svg_color
+  :hover, :active
+    fill: var(--yellow)

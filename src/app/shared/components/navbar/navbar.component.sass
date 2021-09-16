@@ -1,0 +1,28 @@
+@use '../../../styles/buttons'
+@use '../../../styles/margins'
+@use '../../../styles/sizes'
+
+:host
+  position: fixed
+  bottom: 0
+  z-index: 99999999999999
+  background-color: var(--blue-2l)
+  width: 100vw
+  height: sizes.$mobile-nav_height
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2)
+.menu_icon
+  grid-column: 2/3
+  align-self: center
+  justify-self: center
+  height: 80%
+  @include buttons.button_color
+.arrows
+  grid-column: 3
+  align-self: center
+  justify-self: end
+  margin-right: margins.$social-menu_margin_right
+  height: 50%
+  @include buttons.button_color
+
