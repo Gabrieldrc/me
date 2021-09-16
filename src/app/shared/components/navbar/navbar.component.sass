@@ -1,27 +1,28 @@
-@use '../../../../styles'
-%button
-  fill: var(--blue-1l)
-  :active, :hover
-    fill: var(--yellow)
+@use '../../../styles/buttons'
+@use '../../../styles/margins'
+@use '../../../styles/sizes'
+
 :host
   position: fixed
   bottom: 0
   z-index: 99999999999999
   background-color: var(--blue-2l)
   width: 100vw
-  height: 5vh
+  height: sizes.$mobile-nav_height
   display: grid
   grid-template-columns: 1fr 1fr 1fr
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2)
 .menu_icon
   grid-column: 2/3
   align-self: center
   justify-self: center
   height: 80%
-  @extend %button
-.flechas
+  @include buttons.button_color
+.arrows
   grid-column: 3
   align-self: center
   justify-self: end
-  margin-right: 15px
+  margin-right: margins.$social-menu_margin_right
   height: 50%
-  @extend %button
+  @include buttons.button_color
+
