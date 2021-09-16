@@ -1,4 +1,13 @@
+<app-navbar (switchMenuEvent)="switchMenu($event)"></app-navbar>
+<div [class]="menu_style">
+  <div class="overlay_content">
+    <a href="#">My Beliefs</a>
+    <a href="#">What I do</a>
+    <a href="#">How I do it</a>
+    <a href="#">Work</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
 <main>
   <router-outlet></router-outlet>
 </main>
-<navbar></navbar>

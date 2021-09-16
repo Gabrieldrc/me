@@ -1,9 +1,12 @@
 @use '../../../../styles'
 %button
   fill: var(--blue-1l)
-  :hover
+  :active, :hover
     fill: var(--yellow)
 :host
+  position: fixed
+  bottom: 0
+  z-index: 99999999999999
   background-color: var(--blue-2l)
   width: 100vw
   height: 5vh
