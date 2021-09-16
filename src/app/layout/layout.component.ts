@@ -31,21 +31,17 @@ export class LayoutComponent implements OnInit {
   }
 
   private closeMenu() {
-    console.log("close menu")
     this.menu_style = "overlay"
   }
 
   private openMenu() {
-    console.log("open menu")
     this.menu_style = this.menu_style + " open"
   }
   private closeSocialMenu() {
-    console.log("close social menu")
     this.social_menu_style = "social-menu"
   }
 
   private openSocialMenu() {
-    console.log("open social menu")
     this.social_menu_style = this.social_menu_style + " show-social"
   }
 }
