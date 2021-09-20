@@ -9,6 +9,7 @@ export class NavbarComponent implements OnInit {
 
   private isMenuOpened: boolean
   private isSocialMenuOpened: boolean
+  rotatedClass = ""
   @Output() switchMenuEvent = new EventEmitter<boolean>(false)
   @Output() switchSocialMenuEvent = new EventEmitter<boolean>(false)
   constructor() {
@@ -24,7 +25,15 @@ export class NavbarComponent implements OnInit {
     this.switchMenuEvent.emit(this.isMenuOpened)
   }
   socialMenuButtonClicked() {
+    this.rotateArrow()
     this.isSocialMenuOpened = !this.isSocialMenuOpened
     this.switchSocialMenuEvent.emit(this.isSocialMenuOpened)
+  }
+  private rotateArrow() {
+    if (this.rotatedClass.length == 0) {
+      this.rotatedClass = "rotated"
+    } else {
+      this.rotatedClass = ""
+    }
   }
 }

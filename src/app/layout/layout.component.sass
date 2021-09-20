@@ -17,28 +17,29 @@ main
   left: 0
   overflow-y: hidden
   background-color: var(--blue-2d)
+  border-top: 1px solid var(--blue-2l)
   transition: times.$transition-container_time
+  a
+    padding: 8px
+    text-decoration: none
+    font-size: 36px
+    color: var(--white)
+    display: block
+    transition: times.$transition-item_time
+    &:hover, &:focus, &:active
+      background-color: var(--yellow)
+      color: var(--blue-2d)
+  .closebtn
+    position: absolute
+    top: 20px
+    right: 45px
+    font-size: 60px
 .overlay_content
   position: relative
   top: 25%
   width: 100%
   text-align: center
   margin-top: 30px
-.overlay a
-  padding: 8px
-  text-decoration: none
-  font-size: 36px
-  color: var(--white)
-  display: block
-  transition: times.$transition-item_time
-.overlay a:hover, .overlay a:focus
-  background-color: var(--yellow)
-  color: var(--blue-2d)
-.overlay .closebtn
-  position: absolute
-  top: 20px
-  right: 45px
-  font-size: 60px
 .open
   height: 100%
 
