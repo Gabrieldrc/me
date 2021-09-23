@@ -1,2 +1,39 @@
+@use '../../../styles/fonts'
+@use '../../../styles/sizes'
+@use 'sass:math'
+
 :host
   overflow-x: hidden
+
+
+//home section
+section
+  height: 100vh
+
+#home
+  display: grid
+  grid-template-rows: 1fr 2fr 1fr
+  align-items: center
+  > div
+    padding: sizes.$mobile-nav_height 3rem
+  :nth-child(odd)
+    display: grid
+    justify-content: left
+    align-content: center
+  :nth-child(3)
+    color: white
+    background-color: var(--blue-2d)
+    height: 100%
+  h1
+    @include fonts.title-font
+  img
+    $img-with: 75%
+    width: $img-with
+    margin: 0 math.div((100 - $img-with), 2)
+  .name
+    color: var(--blue-0)
+  .career
+    color: var(--yellow)
+  #avatar
+    position: sticky
+    position: -webkit-sticky
