@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="mainAvatarImage" datatype="html">
+        <source>avatar image</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description"> Image of the avatar</note>
+        <note priority="1" from="meaning">avatar image </note>
+      </trans-unit>
+      <trans-unit id="beliefsTextContent" datatype="html">
+        <source> My beliefs as a content </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <note priority="1" from="description"> My beliefs text content</note>
+        <note priority="1" from="meaning">beliefs text </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
