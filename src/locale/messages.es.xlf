@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="howIDoItTitle" datatype="html">
         <source>How I do it</source>
-        <target>Como lo haog</target>
+        <target>Como lo hago</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
           <context context-type="linenumber">29</context>
