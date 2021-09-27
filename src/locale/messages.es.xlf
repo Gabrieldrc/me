@@ -2,9 +2,19 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="presentationGreeting" datatype="html">
+        <source>Hello there, my name is</source>
+        <target>Hola a todos, mi nombre es</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> presentation greeting</note>
+        <note priority="1" from="meaning">greeting </note>
+      </trans-unit>
       <trans-unit id="mainAvatarImage" datatype="html">
         <source>avatar image</source>
-        <target>Imagen del avatar</target>
+        <target>imagen de avatar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
           <context context-type="linenumber">7</context>
@@ -12,15 +22,55 @@
         <note priority="1" from="description"> Image of the avatar</note>
         <note priority="1" from="meaning">avatar image </note>
       </trans-unit>
+      <trans-unit id="myProfession1" datatype="html">
+        <source>I&apos;m a</source>
+        <target>Soy un</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> what is my carreer</note>
+        <note priority="1" from="meaning">text profession </note>
+      </trans-unit>
+      <trans-unit id="myProfession2" datatype="html">
+        <source>Software Developer</source>
+        <target>Desarrollador de Software</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> profession</note>
+        <note priority="1" from="meaning">title profession </note>
+      </trans-unit>
       <trans-unit id="beliefsTextContent" datatype="html">
-        <source> My beliefs as a content </source>
-        <target> Mis creencias como un contenido </target>
+        <source> I believe that experiences are the things that we can share the most as human beings. The experiences of feeling, doing, thinking, knowing and discovering new things about ourselves and the world that surrounds us and what it can become. Everything we think and imagine we have already created, we just need to implement it in our world. </source>
+        <target> Yo creo que las experiencias son las cosas que más podemos compartir como seres humanos. Las experiencias de sentir, hacer, pensar, conocer y descubrir cosas nuevas de nosotros y del mundo que nos rodea y de lo que puede llegar a ser. Todo lo que pensamos e imaginamos ya lo hemos creado solo falta implementarlo en nuestro mundo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
           <context context-type="linenumber">17,19</context>
         </context-group>
         <note priority="1" from="description"> My beliefs text content</note>
         <note priority="1" from="meaning">beliefs text </note>
+      </trans-unit>
+      <trans-unit id="whatIDoTextContent" datatype="html">
+        <source> As a software developer, I believe that software is one of many mechanisms to make these experiences a reality. With software we can create dreams, solve problems and teach, and neither is less important than the other. It is the path that I found and chose to create those experiences. </source>
+        <target> Como desarrollador de software creo que el software es uno de muchos mecanismo para realizar esas experiencias realidad. Con software podemos crear sueños, solucionar problemas e impartir enseñanza, y ninguna es menos importante que la otra. Es el camino que encontre y elegí para crear esas experiencias.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+        <note priority="1" from="description"> What I do text content</note>
+        <note priority="1" from="meaning">what text </note>
+      </trans-unit>
+      <trans-unit id="howIDoTextContent" datatype="html">
+        <source> First of all, I must have a clear idea of what I am going to build. With that clear, I look for references if it has already been built before or dealt with certain related topics to find the best solution. Next, I plan what architecture and design it may have.To choose the tools that I will use, I look to see if one of them is easier or is made to deal more with the problem I am trying to face, be it the language, the libraries or the framework. Once these decisions have been made, I am trying to find design patterns that facilitate the maintenance and neatness of the code and the application itself so that it evolves appropriately. </source>
+        <target> Primeramente, debo que tener una idea clara de lo que voy a construir. Con eso claro, busco referencias si es que ya se ha construido antes o tratado ciertos temas relacionados para encontrar la mejor solucion. Luego, planeo la arquitectura y diseño que pueda tener. Para elegir las herramientas que utilizare, busco si alguna tiene mayor facilidad o esta hecha para tratar más el problema que trato de enfrentar, sea el lenguaje, las librerias o framework. Una vez tomado esas desiciones, voy tratando de encontrar patrones de diseño que me faciliten el mantenimiento y proligidad del codigo y la aplicacion misma para que evoluciones de manera adecuada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/main/main.component.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+        <note priority="1" from="description"> How I do text content</note>
+        <note priority="1" from="meaning">how text </note>
       </trans-unit>
     </body>
   </file>
