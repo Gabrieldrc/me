@@ -2,6 +2,51 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="myBeliefsLink" datatype="html">
+        <source>My Beliefs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description"> Link to &apos;my beliefs&apos; section</note>
+        <note priority="1" from="meaning">Relative Link </note>
+      </trans-unit>
+      <trans-unit id="whatIDoLink" datatype="html">
+        <source>What I do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description"> Link to &apos;what I do&apos; section</note>
+        <note priority="1" from="meaning">Relative Link </note>
+      </trans-unit>
+      <trans-unit id="howIDoItLink" datatype="html">
+        <source>How I do it</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> Link to &apos;how I do it&apos; section</note>
+        <note priority="1" from="meaning">Relative Link </note>
+      </trans-unit>
+      <trans-unit id="builtsAndPracticesLink" datatype="html">
+        <source>Work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description"> Link to &apos;builts and practices&apos; section</note>
+        <note priority="1" from="meaning">Relative Link </note>
+      </trans-unit>
+      <trans-unit id="contactLink" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> Link to &apos;contact&apos; section</note>
+        <note priority="1" from="meaning">Relative Link </note>
+      </trans-unit>
       <trans-unit id="presentationGreeting" datatype="html">
         <source>Hello there, my name is</source>
         <context-group purpose="location">
